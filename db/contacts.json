@@ -1,0 +1,94 @@
+{
+    "contacts": [
+        {
+            "firstName": "Lindsay",
+            "lastName": "Dassau",
+            "phoneNumber": "6154267268",
+            "sexualOrientation": "Straight",
+            "relationToMe": "Wife",
+            "car": "Ford Taurus",
+            "hairColor": "Brown"
+        },
+        {
+            "firstName": "Peggy",
+            "lastName": "Dassau",
+            "phoneNumber": "6157148388",
+            "sexualOrientation": "Straight",
+            "relationToMe": "Mother",
+            "car": "Toyota Camry",
+            "hairColor": "Brown"
+        },
+        {
+            "firstName": "Dave",
+            "lastName": "Dassau",
+            "phoneNumber": "6154974746",
+            "sexualOrientation": "Straight",
+            "relationToMe": "Father",
+            "car": "Jeep Compass",
+            "hairColor": "Gray"
+        },
+        {
+            "firstName": "Elizabeth",
+            "lastName": "Rader",
+            "phoneNumber": "6154963101",
+            "sexualOrientation": "Straight",
+            "relationToMe": "Step Mom",
+            "car": "Hyndai Elantra",
+            "hairColor": "Blonde"
+        },
+        {
+            "firstName": "Ben",
+            "lastName": "Dassau",
+            "phoneNumber": "6154263013",
+            "sexualOrientation": "Straight",
+            "relationToMe": "Brother",
+            "car": "Wheelchair",
+            "hairColor": "Brown"
+        },
+        {
+            "firstName": "Josh",
+            "lastName": "Dassau",
+            "phoneNumber": "6156301915",
+            "sexualOrientation": "Straight",
+            "relationToMe": "Brother",
+            "car": "Mazda3",
+            "hairColor": "Brown"
+        },
+        {
+            "firstName": "Lindsey",
+            "lastName": "Dassau",
+            "phoneNumber": "6154984616",
+            "sexualOrientation": "Straight",
+            "relationToMe": "Sister-in-Law",
+            "car": "Chevrolet HHR",
+            "hairColor": "Brown"
+        },
+        {
+            "firstName": "Amy",
+            "lastName": "Dassau",
+            "phoneNumber": "6154777422",
+            "sexualOrientation": "Straight",
+            "relationToMe": "Sister",
+            "car": "None",
+            "hairColor": "Blonde"
+        },
+        {
+            "firstName": "Corey",
+            "lastName": "Arnold",
+            "phoneNumber": "7316071974",
+            "sexualOrientation": "Straight",
+            "relationToMe": "Friend",
+            "car": "Toyota Prius",
+            "hairColor": "Brown"
+        },
+        {
+            "firstName": "Dustin",
+            "lastName": "Kramer",
+            "phoneNumber": "6159394734",
+            "sexualOrientation": "Straight",
+            "relationToMe": "Friend",
+            "car": "Toyota Camry",
+            "hairColor": "Black"
+        }
+    ]
+}
