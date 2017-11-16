@@ -1,0 +1,104 @@
+{
+    "contacts": {
+        "contact0": {
+            "firstName": "Lindsay",
+            "lastName": "Dassau",
+            "phoneNumber": 6154267268,
+            "sexualOrientation": "Straight",
+            "relationToMe": "Wife",
+            "car": "Ford Taurus",
+            "hairColor": "Brown",
+            "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
+        },
+        "contact1": {
+            "firstName": "Peggy",
+            "lastName": "Dassau",
+            "phoneNumber": 6157148388,
+            "sexualOrientation": "Straight",
+            "relationToMe": "Mother",
+            "car": "Toyota Camry",
+            "hairColor": "Brown",
+            "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
+        },
+        "contact2": {
+            "firstName": "Dave",
+            "lastName": "Dassau",
+            "phoneNumber": 6154974746,
+            "sexualOrientation": "Straight",
+            "relationToMe": "Father",
+            "car": "Jeep Compass",
+            "hairColor": "Gray",
+            "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
+        },
+        "contact3": {
+            "firstName": "Elizabeth",
+            "lastName": "Rader",
+            "phoneNumber": 6154963101,
+            "sexualOrientation": "Straight",
+            "relationToMe": "Step Mom",
+            "car": "Hyndai Elantra",
+            "hairColor": "Blonde",
+            "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
+        },
+        "contact4": {
+            "firstName": "Ben",
+            "lastName": "Dassau",
+            "phoneNumber": 6154263013,
+            "sexualOrientation": "Straight",
+            "relationToMe": "Brother",
+            "car": "Wheelchair",
+            "hairColor": "Brown",
+            "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
+        },
+        "contact5": {
+            "firstName": "Josh",
+            "lastName": "Dassau",
+            "phoneNumber": 6156301915,
+            "sexualOrientation": "Straight",
+            "relationToMe": "Brother",
+            "car": "Mazda3",
+            "hairColor": "Brown",
+            "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
+        },
+        "contact6": {
+            "firstName": "Lindsey",
+            "lastName": "Dassau",
+            "phoneNumber": 6154984616,
+            "sexualOrientation": "Straight",
+            "relationToMe": "Sister-in-Law",
+            "car": "Chevrolet HHR",
+            "hairColor": "Brown",
+            "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
+        },
+        "contact7": {
+            "firstName": "Amy",
+            "lastName": "Dassau",
+            "phoneNumber": 6154777422,
+            "sexualOrientation": "Straight",
+            "relationToMe": "Sister",
+            "car": "None",
+            "hairColor": "Blonde",
+            "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
+        },
+        "contact8": {
+            "firstName": "Corey",
+            "lastName": "Arnold",
+            "phoneNumber": 7316071974,
+            "sexualOrientation": "Straight",
+            "relationToMe": "Friend",
+            "car": "Toyota Prius",
+            "hairColor": "Brown",
+            "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
+        },
+        "contact9": {
+            "firstName": "Dustin",
+            "lastName": "Kramer",
+            "phoneNumber": 6159394734,
+            "sexualOrientation": "Straight",
+            "relationToMe": "Friend",
+            "car": "Toyota Camry",
+            "hairColor": "Black",
+            "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
+        }
+    }
+}
