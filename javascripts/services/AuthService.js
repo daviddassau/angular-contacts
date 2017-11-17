@@ -10,5 +10,9 @@ app.service("AuthService", function () {
         return firebase.auth().currentUser ? true : false;
     };
 
-    return {authenticateGoogle, isAuthenticated};
+    const logout = () => {
+        firebase.auth().signOut();
+    };
+
+    return {authenticateGoogle, isAuthenticated, logout};
 });
