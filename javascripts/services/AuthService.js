@@ -6,5 +6,9 @@ app.service("AuthService", function () {
         return firebase.auth().signInWithPopup(provider);
     };
 
-    return { authenticateGoogle };
+    const isAuthenticated = () => {
+        return firebase.auth().currentUser ? true : false;
+    };
+
+    return {authenticateGoogle, isAuthenticated};
 });
