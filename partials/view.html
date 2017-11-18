@@ -1,4 +1,23 @@
 <div class="text-center" id="view">
     <h1>View</h1>
-     {{controller}}
+    
+    <div id="viewContacts">
+        <div ng-repeat="contact in contact" class="col-sm-6 col-md-4 contact">
+            <div class="thumbnail">
+                <div class="caption">
+                    <p class="first-name">{{contact.firstName}}</p>
+                    <p class="last-name">{{contact.lastName}}</p>
+                    <p class="first-name">{{contact.phoneNumber}}</p>
+                    <p class="first-name">{{contact.sexualOrientation}}</p>
+                    <p class="first-name">{{contact.relationToMe}}</p>
+                    <p class="first-name">{{contact.car}}</p>
+                    <p class="first-name">{{contact.hairColor}}</p>
+                    <p>
+                        <a class="btn btn-primary delete" role="button" ng-click="deleteContact(contact)">Delete Contact</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
