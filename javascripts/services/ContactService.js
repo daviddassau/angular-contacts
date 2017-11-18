@@ -11,8 +11,8 @@ app.service("ContactService", function ($http, $q, FIREBASE_CONFIG) {
                     fbContacts[key].id = key;
                     contact.push(fbContacts[key]);
                     console.log(contact);
-                    resolve(contact);
                 });
+                resolve(contact);
             }).catch((error) => {
                 reject(error);
             });
