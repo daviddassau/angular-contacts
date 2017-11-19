@@ -10,7 +10,6 @@ app.service("ContactService", function ($http, $q, FIREBASE_CONFIG) {
                 Object.keys(fbContacts).forEach((key) => {
                     fbContacts[key].id = key;
                     contact.push(fbContacts[key]);
-                    console.log(contact);
                 });
                 resolve(contact);
             }).catch((error) => {
@@ -27,5 +26,23 @@ app.service("ContactService", function ($http, $q, FIREBASE_CONFIG) {
         return $http.delete(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`);
     };
 
-    return {getUserContact, addNewContact, deleteContact};
+    const updateContact = (contact, contactId) => {
+        return $http.put(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`, JSON.stringify(contact));
+    };
+
+    const createContactObject = (contact) => {
+        return {
+            "firstName": contact.firstName,
+            "lastName": contact.lastName,
+            "phoneNumber": contact.phoneNumber,
+            "sexualOrientation": contact.sexualOrientation,
+            "relationToMe": contact.relationToMe,
+            "car": contact.car,
+            "hairColor": contact.hairColor,
+            "isFavorited": true,
+            "uid": contact.uid
+        };
+    };
+
+    return {getUserContact, addNewContact, deleteContact, updateContact, createContactObject};
 });

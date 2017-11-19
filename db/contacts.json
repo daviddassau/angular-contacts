@@ -8,6 +8,7 @@
             "relationToMe": "Wife",
             "car": "Ford Taurus",
             "hairColor": "Brown",
+            "isFavorited": false,
             "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
         },
         "contact1": {
@@ -18,6 +19,7 @@
             "relationToMe": "Mother",
             "car": "Toyota Camry",
             "hairColor": "Brown",
+            "isFavorited": false,
             "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
         },
         "contact2": {
@@ -28,6 +30,7 @@
             "relationToMe": "Father",
             "car": "Jeep Compass",
             "hairColor": "Gray",
+            "isFavorited": false,
             "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
         },
         "contact3": {
@@ -38,6 +41,7 @@
             "relationToMe": "Step Mom",
             "car": "Hyndai Elantra",
             "hairColor": "Blonde",
+            "isFavorited": false,
             "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
         },
         "contact4": {
@@ -48,6 +52,7 @@
             "relationToMe": "Brother",
             "car": "Wheelchair",
             "hairColor": "Brown",
+            "isFavorited": false,
             "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
         },
         "contact5": {
@@ -58,6 +63,7 @@
             "relationToMe": "Brother",
             "car": "Mazda3",
             "hairColor": "Brown",
+            "isFavorited": false,
             "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
         },
         "contact6": {
@@ -68,6 +74,7 @@
             "relationToMe": "Sister-in-Law",
             "car": "Chevrolet HHR",
             "hairColor": "Brown",
+            "isFavorited": false,
             "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
         },
         "contact7": {
@@ -78,6 +85,7 @@
             "relationToMe": "Sister",
             "car": "None",
             "hairColor": "Blonde",
+            "isFavorited": false,
             "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
         },
         "contact8": {
@@ -88,6 +96,7 @@
             "relationToMe": "Friend",
             "car": "Toyota Prius",
             "hairColor": "Brown",
+            "isFavorited": false,
             "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
         },
         "contact9": {
@@ -98,6 +107,7 @@
             "relationToMe": "Friend",
             "car": "Toyota Camry",
             "hairColor": "Black",
+            "isFavorited": false,
             "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
         }
     }

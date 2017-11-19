@@ -14,6 +14,8 @@
                     <p class="first-name">{{contact.hairColor}}</p>
                     <p>
                         <a class="btn btn-danger delete" role="button" ng-click="deleteContact(contact.id)">Delete Contact</a>
+                        <button class="btn btn-default not-favorited" ng-if="!contact.isFavorited" ng-click="starChange(contact)"><i class="fa fa-star-o"></i></button>
+                        <button class="btn btn-default not-favorited" ng-if="contact.isFavorited" ng-click="starChange(contact)"><i class="fa fa-star"></i></button>
                     </p>
                 </div>
             </div>
