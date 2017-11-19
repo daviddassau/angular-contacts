@@ -44,5 +44,9 @@ app.service("ContactService", function ($http, $q, FIREBASE_CONFIG) {
         };
     };
 
-    return {getUserContact, addNewContact, deleteContact, updateContact, createContactObject};
+    const getSingleContact = (contactId) => {
+        return $http.get(`${FIREBASE_CONFIG.databaseURL}/contacts/${contactId}.json`);
+    };
+
+    return {getUserContact, addNewContact, deleteContact, updateContact, createContactObject, getSingleContact};
 });
