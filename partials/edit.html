@@ -1,0 +1,30 @@
+<div class="text-center" id="edit">
+    <h1>Edit</h1>
+
+    <form name="newContactForm" ng-submit="submitForm()" class="col-xs-6 col-xs-offset-3">
+        <div class="form-group">
+            <input type="text" class="form-control" id="firstName" placeholder="First Name" ng-model="contact.firstName">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" id="lastName" placeholder="Last Name" ng-model="contact.lastName">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number" ng-model="contact.phoneNumber">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" id="sexualOrientation" placeholder="Sexual Orientation" ng-model="contact.sexualOrientation">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" id="relationship" placeholder="Relationship to David" ng-model="contact.relationship">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" id="car" placeholder="Car make/model" ng-model="contact.car">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" id="hairColor" placeholder="Hair Color" ng-model="contact.hairColor">
+        </div>
+        <button type="submit" class="btn btn-default" ng-click="saveContact(user)">Submit</button>
+    </form>
+    <pre>contact = {{contact | json}}</pre>
+
+</div>

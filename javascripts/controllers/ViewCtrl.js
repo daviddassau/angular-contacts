@@ -1,6 +1,6 @@
 "use strict";
 
-app.controller("ViewCtrl", function ($rootScope, $scope, ContactService) {
+app.controller("ViewCtrl", function ($location, $rootScope, $scope, ContactService) {
     
     const getContacts = () => {
         ContactService.getUserContact($rootScope.uid).then((results) => {
@@ -37,6 +37,10 @@ app.controller("ViewCtrl", function ($rootScope, $scope, ContactService) {
             console.log("error in starChange", error);
         });
         
+    };
+
+    $scope.editContact = (contactId) => {
+        $location.path(`/contacts/edit/${contactId}`);
     };
     
 });
