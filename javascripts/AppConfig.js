@@ -64,9 +64,9 @@ app.config(function($routeProvider){
             controller: 'EditCtrl',
             resolve: {isAuth}
         })
-        .when("/contacts/list/:id", {
-            templateUrl: 'partials/list.html',
-            controller: 'ListCtrl',
+        .when("/contacts/detail/:id", {
+            templateUrl: 'partials/detail.html',
+            controller: 'DetailCtrl',
             resolve: {isAuth}
         })
         .otherwise('/login');
