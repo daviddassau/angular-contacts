@@ -8,6 +8,7 @@ app.controller("EditCtrl", function ($location, $routeParams, $scope, ContactSer
         ContactService.getSingleContact($routeParams.id).then((results) => {
             $scope.contact = results.data;
             console.log("results", results);
+            $scope.contact.id = $routeParams.id;
         }).catch((error) => {
             console.log("error in getContact", error);
         });
