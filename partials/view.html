@@ -1,8 +1,13 @@
 <div class="text-center" id="view">
     <h1>View</h1>
+
+    <div class="input-group input-group-lg col-xs-6 col-xs-offset-3">
+        <span class="input-group-addon glyphicon glyphicon-search" aria-hidden="true"></span>
+        <input type="text" class="form-control" placeholder="Find a contact" ng-model="searchText">
+    </div>
     
     <div id="viewContacts">
-        <div ng-repeat="contact in contact" class="col-sm-6 col-md-4 contact">
+        <div ng-repeat="contact in contact | filter: searchText" class="col-sm-6 col-md-4 contact">
             <div class="thumbnail">
                 <div class="caption">
                     <h4 class="first-last-name">{{contact.firstName}} {{contact.lastName}}</h4>
@@ -35,10 +40,6 @@
                         <div class="col-xs-6 text-right">{{contact.hairColor}}</div>
                     </div>
                     
-                    <!-- <p class="birthday">Birthday: {{contact.birthday}}</p>
-                    <p class="relationship">Relationship: {{contact.relationToMe}}</p>
-                    <p class="vehicle">Vehicle: {{contact.car}}</p>
-                    <p class="hair-color">Hair Color: {{contact.hairColor}}</p> -->
                     <p>
                         <button class="btn btn-default delete" ng-click="deleteContact(contact.id)"><i class="fa fa-trash"></i></button>
                         <button class="btn btn-default not-favorited" ng-if="!contact.isFavorited" ng-click="starChange(contact)"><i class="fa fa-star-o"></i></button>
