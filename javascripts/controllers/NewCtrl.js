@@ -2,10 +2,9 @@
 
 app.controller("NewCtrl", function ($location, $rootScope, $scope, ContactService) {
 
-    $scope.submitForm = () => {
+    $scope.submitForm = (contact) => {
         let newContact = $scope.contact;
-        $scope.contact.uid = $rootScope.uid;
-        console.log(newContact);
+        newContact.uid = $rootScope.uid;
         ContactService.addNewContact(newContact).then(() => {
             $location.path('contacts/view');
         }).catch((error) => {
