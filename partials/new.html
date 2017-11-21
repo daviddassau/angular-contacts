@@ -3,27 +3,31 @@
     
     <form name="newContactForm" ng-submit="submitForm()" class="col-xs-4 col-xs-offset-4">
         <div class="form-group">
-            <input type="text" class="form-control" id="firstName" placeholder="First Name" ng-model="contact.firstName">
+            <input type="text" class="form-control" id="firstName" placeholder="First Name" ng-required="true" ng-model="contact.firstName">
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" id="lastName" placeholder="Last Name" ng-model="contact.lastName">
+            <input type="text" class="form-control" id="lastName" placeholder="Last Name" ng-required="true" ng-model="contact.lastName">
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number" ng-model="contact.phoneNumber">
+            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number" ng-required="true" ng-model="contact.phoneNumber">
         </div>
         <div class="form-group">
+<<<<<<< HEAD
             <input type="text" class="form-control" id="birthday" placeholder="Birthday" ng-model="contact.birthday">
+=======
+            <input type="text" class="form-control" id="sexualOrientation" placeholder="Sexual Orientation" ng-required="true" ng-model="contact.sexualOrientation">
+>>>>>>> master
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" id="relationship" placeholder="Relationship to David" ng-model="contact.relationship">
+            <input type="text" class="form-control" id="relationship" placeholder="Relationship to David" ng-required="true" ng-model="contact.relationship">
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" id="car" placeholder="Car make/model" ng-model="contact.car">
+            <input type="text" class="form-control" id="car" placeholder="Car make/model" ng-required="true" ng-model="contact.car">
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" id="hairColor" placeholder="Hair Color" ng-model="contact.hairColor">
+            <input type="text" class="form-control" id="hairColor" placeholder="Hair Color" ng-required="true" ng-model="contact.hairColor">
         </div>
-        <button type="submit" class="btn btn-default" ng-click="saveContact(user)">Submit</button>
+        <button type="submit" class="btn btn-default"ng-disabled="newContactForm.$invalid" ng-click="saveContact(user)">Submit</button>
     </form>
 
 </div>
