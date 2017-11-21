@@ -35,7 +35,7 @@ app.service("ContactService", function ($http, $q, FIREBASE_CONFIG) {
             "firstName": contact.firstName,
             "lastName": contact.lastName,
             "phoneNumber": contact.phoneNumber,
-            "sexualOrientation": contact.sexualOrientation,
+            "birthday": contact.birthday,
             "relationToMe": contact.relationToMe,
             "car": contact.car,
             "hairColor": contact.hairColor,

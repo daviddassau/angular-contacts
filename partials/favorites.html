@@ -5,14 +5,12 @@
         <div ng-repeat="contact in contact" class="col-sm-6 col-md-4 contact">
             <div class="thumbnail" ng-if="contact.isFavorited">
                 <div class="caption">
-                    <p class="first-name">{{contact.firstName}}</p>
-                    <p class="last-name">{{contact.lastName}}</p>
-                    <p class="first-name">{{contact.phoneNumber}}</p>
-                    <p class="first-name">{{contact.sexualOrientation}}</p>
-                    <p class="first-name">{{contact.relationToMe}}</p>
-                    <p class="first-name">{{contact.car}}</p>
-                    <p class="first-name">{{contact.hairColor}}</p>
-                    
+                    <p class="first-last-name">Name: {{contact.firstName}} {{contact.lastName}}</p>
+                    <p class="phone-number">Phone Number: {{contact.phoneNumber}}</p>
+                    <p class="birthday">Birthday: {{contact.birthday}}</p>
+                    <p class="relationship">Relationship: {{contact.relationToMe}}</p>
+                    <p class="vehicle">Vehicle: {{contact.car}}</p>
+                    <p class="hair-color">Hair Color: {{contact.hairColor}}</p>
                 </div>
             </div>
         </div>

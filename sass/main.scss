@@ -1,5 +1,14 @@
 @import 'colors';
+@import 'view';
 
 body {
     background-color: $bluegreen;
+}
+
+.first-last-name {
+    background-color: $bluegreen;
+}
+
+h4 {
+    padding: 7px 0;
 }
