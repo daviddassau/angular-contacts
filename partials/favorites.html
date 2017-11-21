@@ -5,12 +5,44 @@
         <div ng-repeat="contact in contact" class="col-sm-6 col-md-4 contact">
             <div class="thumbnail" ng-if="contact.isFavorited">
                 <div class="caption">
-                    <p class="first-last-name">Name: {{contact.firstName}} {{contact.lastName}}</p>
-                    <p class="phone-number">Phone Number: {{contact.phoneNumber}}</p>
-                    <p class="birthday">Birthday: {{contact.birthday}}</p>
-                    <p class="relationship">Relationship: {{contact.relationToMe}}</p>
-                    <p class="vehicle">Vehicle: {{contact.car}}</p>
-                    <p class="hair-color">Hair Color: {{contact.hairColor}}</p>
+                    <h4 class="first-last-name">{{contact.firstName}} {{contact.lastName}}</h4>
+                    <div class="row">
+                        <div class="col-xs-6 text-left">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="col-xs-6 text-right">{{contact.phoneNumber}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6 text-left">
+                            <i class="fa fa-birthday-cake"></i>
+                        </div>
+                        <div class="col-xs-6 text-right">{{contact.birthday}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6 text-left">
+                            <i class="fa fa-users"></i>
+                        </div>
+                        <div class="col-xs-6 text-right">{{contact.relationToMe}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6 text-left">
+                            <i class="fa fa-car"></i>
+                        </div>
+                        <div class="col-xs-6 text-right">{{contact.car}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6 text-left">
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <div class="col-xs-6 text-right">{{contact.hairColor}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6 text-left">
+                            <i class="fa fa-venus-mars"></i>
+                        </div>
+                        <div class="col-xs-6 text-right">{{contact.gender}}</div>
+                    </div>
+                    
                 </div>
             </div>
         </div>

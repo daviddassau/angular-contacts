@@ -39,6 +39,7 @@ app.service("ContactService", function ($http, $q, FIREBASE_CONFIG) {
             "relationToMe": contact.relationToMe,
             "car": contact.car,
             "hairColor": contact.hairColor,
+            "gender": contact.gender,
             "isFavorited": true,
             "uid": contact.uid
         };

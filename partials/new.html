@@ -12,10 +12,10 @@
             <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number" ng-required="true" ng-model="contact.phoneNumber">
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" id="birthday" placeholder="Birthday" ng-model="contact.birthday">
+            <input type="text" class="form-control" id="birthday" placeholder="Birthday" ng-required="true" ng-model="contact.birthday">
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" id="relationship" placeholder="Relationship to David" ng-required="true" ng-model="contact.relationship">
+            <input type="text" class="form-control" id="relationship" placeholder="Relationship to David" ng-required="true" ng-model="contact.relationToMe">
         </div>
         <div class="form-group">
             <input type="text" class="form-control" id="car" placeholder="Car make/model" ng-required="true" ng-model="contact.car">
@@ -25,10 +25,10 @@
         </div>
         <div class="radio">
             <label class="radioGender">
-                <input type="radio" name="maleOption" id="maleOption" value="maleOption"> Male
+                <input type="radio" name="maleOption" id="maleOption" value="Male"> Male
             </label>
             <label>
-                <input type="radio" name="femaleOption" id="femaleOption" value="femaleOption"> Female
+                <input type="radio" name="femaleOption" id="femaleOption" value="Female"> Female
             </label>
         </div>
         <button type="submit" class="btn btn-default"ng-disabled="newContactForm.$invalid" ng-click="saveContact(user)">Submit</button>

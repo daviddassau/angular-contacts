@@ -8,6 +8,7 @@
             "relationToMe": "Wife",
             "car": "Ford Taurus",
             "hairColor": "Brown",
+            "gender": "Female",
             "isFavorited": false,
             "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
         },
@@ -19,6 +20,7 @@
             "relationToMe": "Mother",
             "car": "Toyota Camry",
             "hairColor": "Brown",
+            "gender": "Female",
             "isFavorited": false,
             "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
         },
@@ -30,6 +32,7 @@
             "relationToMe": "Father",
             "car": "Jeep Compass",
             "hairColor": "Gray",
+            "gender": "Male",
             "isFavorited": false,
             "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
         },
@@ -41,6 +44,7 @@
             "relationToMe": "Step Mom",
             "car": "Hyundai Elantra",
             "hairColor": "Blonde",
+            "gender": "Female",
             "isFavorited": false,
             "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
         },
@@ -52,6 +56,7 @@
             "relationToMe": "Brother",
             "car": "Wheelchair",
             "hairColor": "Brown",
+            "gender": "Male",
             "isFavorited": false,
             "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
         },
@@ -63,6 +68,7 @@
             "relationToMe": "Brother",
             "car": "Mazda3",
             "hairColor": "Brown",
+            "gender": "Male",
             "isFavorited": false,
             "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
         },
@@ -74,6 +80,7 @@
             "relationToMe": "Sister-in-Law",
             "car": "Chevrolet HHR",
             "hairColor": "Brown",
+            "gender": "Female",
             "isFavorited": false,
             "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
         },
@@ -85,6 +92,7 @@
             "relationToMe": "Sister",
             "car": "None",
             "hairColor": "Blonde",
+            "gender": "Female",
             "isFavorited": false,
             "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
         },
@@ -96,6 +104,7 @@
             "relationToMe": "Friend",
             "car": "Toyota Prius",
             "hairColor": "Brown",
+            "gender": "Male",
             "isFavorited": false,
             "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
         },
@@ -107,6 +116,7 @@
             "relationToMe": "Friend",
             "car": "Toyota Camry",
             "hairColor": "Black",
+            "gender": "Male",
             "isFavorited": false,
             "uid": "7cdYVLmTfWVf78t7pBFl54CkzaG2"
         }
