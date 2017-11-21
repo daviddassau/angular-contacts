@@ -1,8 +1,8 @@
 <div class="text-center" id="detail">
     <h1>Detail</h1>
-    {{hi}}
-    <!-- <div id="viewContacts">
-        <div ng-repeat="contact in contact" class="col-sm-6 col-md-4 contact">
+    
+    <div id="detailContacts">
+        <div class="col-sm-6 col-md-4 contact">
             <div class="thumbnail">
                 <div class="caption">
                     <p class="first-name">{{contact.firstName}} {{contact.lastName}}</p>
@@ -12,23 +12,16 @@
                     <p class="first-name">{{contact.car}}</p>
                     <p class="first-name">{{contact.hairColor}}</p>
                     <p>
-                        <a class="btn btn-danger delete" role="button" ng-click="deleteContact(contact.id)">Delete Contact</a>
                         <button class="btn btn-default not-favorited" ng-if="!contact.isFavorited" ng-click="starChange(contact)">
                             <i class="fa fa-star-o"></i>
                         </button>
                         <button class="btn btn-default not-favorited" ng-if="contact.isFavorited" ng-click="starChange(contact)">
                             <i class="fa fa-star"></i>
                         </button>
-                        <button class="btn btn-default not-favorited" ng-click="editContact(contact.id)">
-                            <i class="fa fa-pencil-square-o"></i>
-                        </button>
-                        <button class="btn btn-default" ng-click="contactDetails(contact.id)">
-                            <i class="fa fa-search"></i>
-                        </button>
                     </p>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
 </div>

@@ -42,5 +42,9 @@ app.controller("ViewCtrl", function ($location, $rootScope, $scope, ContactServi
     $scope.editContact = (contactId) => {
         $location.path(`/contacts/edit/${contactId}`);
     };
+
+    $scope.contactDetail = (contactId) => {
+        $location.path(`/contacts/detail/${contactId}`);
+    };
     
 });
