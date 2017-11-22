@@ -4,11 +4,8 @@ app.controller("DetailCtrl", function ($routeParams, $scope, ContactService){
 
     $scope.contact = {};
 
-    console.log("ContactId", $routeParams.id);
-
     const getContact = () => {
         ContactService.getSingleContact($routeParams.id).then((results) => {
-            console.log("results.data", results.data);
             $scope.contact = results.data;
         }).catch((error) => {
             console.log("error in getSingleContact", error);

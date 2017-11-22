@@ -7,7 +7,6 @@ app.controller("EditCtrl", function ($location, $routeParams, $scope, ContactSer
     const getContact = () => {
         ContactService.getSingleContact($routeParams.id).then((results) => {
             $scope.contact = results.data;
-            console.log("results", results);
         }).catch((error) => {
             console.log("error in getContact", error);
         });
@@ -17,7 +16,6 @@ app.controller("EditCtrl", function ($location, $routeParams, $scope, ContactSer
 
     $scope.updateContactInFirebase = () => {
         ContactService.updateContact($scope.contact, $routeParams.id).then(() => {
-            console.log("updateContact function was triggered", $scope.contact, $scope.contact.id);
             $location.path("/contacts/view");
         }).catch((error) => {
             console.log("error in updateContactInFirebase", error);

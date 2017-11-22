@@ -35,10 +35,6 @@
                         <div class="col-xs-6 text-right">{{contact.hairColor}}</div>
                     </div>
                     
-                    <!-- <p class="birthday">Birthday: {{contact.birthday}}</p>
-                    <p class="relationship">Relationship: {{contact.relationToMe}}</p>
-                    <p class="vehicle">Vehicle: {{contact.car}}</p>
-                    <p class="hair-color">Hair Color: {{contact.hairColor}}</p> -->
                     <p>
                         <button class="btn btn-default delete" ng-click="deleteContact(contact.id)"><i class="fa fa-trash"></i></button>
                         <button class="btn btn-default not-favorited" ng-if="!contact.isFavorited" ng-click="starChange(contact)"><i class="fa fa-star-o"></i></button>
