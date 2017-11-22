@@ -1,0 +1,27 @@
+<div class="text-center" id="detail">
+    <h1>Detail</h1>
+    
+    <div id="detailContacts">
+        <div class="col-sm-6 col-md-4 contact">
+            <div class="thumbnail">
+                <div class="caption">
+                    <p class="first-name">{{contact.firstName}} {{contact.lastName}}</p>
+                    <p class="first-name">{{contact.phoneNumber}}</p>
+                    <p class="first-name">{{contact.birthday}}</p>
+                    <p class="first-name">{{contact.relationToMe}}</p>
+                    <p class="first-name">{{contact.car}}</p>
+                    <p class="first-name">{{contact.hairColor}}</p>
+                    <p>
+                        <button class="btn btn-default not-favorited" ng-if="!contact.isFavorited" ng-click="starChange(contact)">
+                            <i class="fa fa-star-o"></i>
+                        </button>
+                        <button class="btn btn-default not-favorited" ng-if="contact.isFavorited" ng-click="starChange(contact)">
+                            <i class="fa fa-star"></i>
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

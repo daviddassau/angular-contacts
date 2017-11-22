@@ -1,6 +1,6 @@
 "use strict";
 
-app.controller("ViewCtrl", function ($rootScope, $scope, ContactService) {
+app.controller("ViewCtrl", function ($location, $rootScope, $scope, ContactService) {
     
     const getContacts = () => {
         ContactService.getUserContact($rootScope.uid).then((results) => {
@@ -18,6 +18,33 @@ app.controller("ViewCtrl", function ($rootScope, $scope, ContactService) {
         }).catch((error) => {
             console.log("error in deleteContact", error);
         });
+    };
+
+
+    $scope.starChange = (contact) => {
+        let updateContact = {};
+
+        if (!contact.isFavorited){
+            updateContact = ContactService.createContactObject(contact);
+        } else{
+            updateContact = ContactService.createContactObject(contact);
+            updateContact.isFavorited = false;
+        }
+
+        ContactService.updateContact(updateContact, contact.id).then(() => {
+            getContacts();
+        }).catch((error) => {
+            console.log("error in starChange", error);
+        });
+        
+    };
+
+    $scope.editContact = (contactId) => {
+        $location.path(`/contacts/edit/${contactId}`);
+    };
+
+    $scope.contactDetail = (contactId) => {
+        $location.path(`/contacts/detail/${contactId}`);
     };
     
 });

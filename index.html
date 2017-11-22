@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contacts Application</title>
     <link rel="stylesheet" type="text/css" href="./lib/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./styles/main.css">
 </head>
 <body ng-app="ContactsApp">
 
     <div ng-include="'./partials/navbar.html'"></div>
-    <div class="col-xs-8 col-xs-offset-2" ng-view></div>
+    <div class="col-xs-10 col-xs-offset-1" ng-view></div>
 
     <!-- Firebase JS -->
     <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
@@ -35,6 +36,9 @@
     <script type="text/javascript" src="./javascripts/controllers/FavoritesCtrl.js"></script>
     <script type="text/javascript" src="./javascripts/controllers/NewCtrl.js"></script>
     <script type="text/javascript" src="./javascripts/controllers/ViewCtrl.js"></script>
+    <script type="text/javascript" src="./javascripts/controllers/EditCtrl.js"></script>
+    <script type="text/javascript" src="./javascripts/controllers/ListCtrl.js"></script>
+    <script type="text/javascript" src="./javascripts/controllers/DetailCtrl.js"></script>
     
 </body>
 </html>

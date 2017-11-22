@@ -59,5 +59,15 @@ app.config(function($routeProvider){
             controller: 'FavoritesCtrl',
             resolve: {isAuth}
         })
+        .when("/contacts/edit/:id", {
+            templateUrl: 'partials/edit.html',
+            controller: 'EditCtrl',
+            resolve: {isAuth}
+        })
+        .when("/contacts/detail/:id", {
+            templateUrl: 'partials/detail.html',
+            controller: 'DetailCtrl',
+            resolve: {isAuth}
+        })
         .otherwise('/login');
 });

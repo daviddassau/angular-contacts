@@ -1,4 +1,19 @@
 <div class="text-center" id="favorites">
     <h1>Favorites</h1>
-     {{controller}}
+    
+    <div id="viewContacts">
+        <div ng-repeat="contact in contact" class="col-sm-6 col-md-4 contact">
+            <div class="thumbnail" ng-if="contact.isFavorited">
+                <div class="caption">
+                    <p class="first-last-name">Name: {{contact.firstName}} {{contact.lastName}}</p>
+                    <p class="phone-number">Phone Number: {{contact.phoneNumber}}</p>
+                    <p class="birthday">Birthday: {{contact.birthday}}</p>
+                    <p class="relationship">Relationship: {{contact.relationToMe}}</p>
+                    <p class="vehicle">Vehicle: {{contact.car}}</p>
+                    <p class="hair-color">Hair Color: {{contact.hairColor}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
