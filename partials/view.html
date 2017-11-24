@@ -1,8 +1,13 @@
 <div class="text-center" id="view">
     <h1>View</h1>
+
+    <div class="input-group input-group-lg col-xs-6 col-xs-offset-3">
+        <span class="input-group-addon glyphicon glyphicon-search" aria-hidden="true"></span>
+        <input type="text" class="form-control" placeholder="Find a contact" ng-model="searchText">
+    </div>
     
     <div id="viewContacts">
-        <div ng-repeat="contact in contact" class="col-sm-6 col-md-4 contact">
+        <div ng-repeat="contact in contact | filter: searchText" class="col-sm-6 col-md-4 contact">
             <div class="thumbnail">
                 <div class="caption">
                     <h4 class="first-last-name">{{contact.firstName}} {{contact.lastName}}</h4>
@@ -33,6 +38,12 @@
                             <i class="fa fa-user"></i>
                         </div>
                         <div class="col-xs-6 text-right">{{contact.hairColor}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6 text-left">
+                            <i class="fa fa-venus-mars"></i>
+                        </div>
+                        <div class="col-xs-6 text-right">{{contact.gender}}</div>
                     </div>
                     
                     <p>
